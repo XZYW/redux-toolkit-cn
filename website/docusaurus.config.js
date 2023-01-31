@@ -59,8 +59,8 @@ module.exports = {
   baseUrl: '/',
   favicon: 'img/favicon/favicon.ico',
   tagline:
-    'The official, opinionated, batteries-included toolset for efficient Redux development',
-  title: 'Redux Toolkit',
+    '官方、智能、开箱即用的工具集，用于高效开发Redux',
+  title: 'Redux Toolkit中文文档',
   url: 'https://redux-toolkit.js.org',
   customFields: {
     repoUrl: 'https://github.com/reduxjs/redux-toolkit',
@@ -75,7 +75,7 @@ module.exports = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Redux Toolkit',
+      title: 'Redux Toolkit中文文档',
       logo: {
         alt: 'Redux Logo',
         src: 'img/redux.svg',
@@ -83,15 +83,15 @@ module.exports = {
       items: [
         {
           to: 'introduction/getting-started',
-          label: 'Getting Started',
+          label: '快速入门',
           position: 'right',
         },
-        { to: 'tutorials/overview', label: 'Tutorials', position: 'right' },
-        { to: 'usage/usage-guide', label: 'Usage Guide', position: 'right' },
+        { to: 'tutorials/overview', label: '教程', position: 'right' },
+        { to: 'usage/usage-guide', label: '使用指南', position: 'right' },
         { to: 'api/configureStore', label: 'API', position: 'right' },
         { to: 'rtk-query/overview', label: 'RTK Query', position: 'right' },
         {
-          href: 'https://github.com/reduxjs/redux-toolkit',
+          href: 'https://github.com/nefe/redux-toolkit-cn',
           label: 'GitHub',
           position: 'right',
         },
@@ -108,26 +108,26 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Getting Started',
+              label: '快速入门',
               to: 'introduction/getting-started',
             },
             {
-              label: 'Tutorials',
+              label: '教程',
               to: 'tutorials/overview',
             },
             {
-              label: 'Usage Guide',
+              label: '使用指南',
               to: 'usage/usage-guide',
             },
             {
-              label: 'API Reference',
+              label: 'API参考',
               to: 'api/configureStore',
             },
             { to: 'rtk-query/overview', label: 'RTK Query' },
           ],
         },
         {
-          title: 'Community',
+          title: '社区',
           items: [
             {
               label: 'Stack Overflow',
@@ -140,11 +140,15 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: '更多',
           items: [
             {
-              label: 'GitHub',
+              label: 'RTK GitHub',
               href: 'https://www.github.com/reduxjs/redux-toolkit',
+            },
+            {
+              label: '中文文档 GitHub',
+              href: 'https://github.com/nefe/redux-toolkit-cn',
             },
             {
               html: `
